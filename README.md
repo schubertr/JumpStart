@@ -1,4 +1,6 @@
-custom script generator site/app that auto installs development software for OSX that you select. Similar to homebrew, but for things homebrew doesnt install
+## JumpStart
+
+Custom script generator that auto installs development software for OSX that you select. Similar to homebrew, but automated.
 
 * Homebrew
 * Homebrew Versions
@@ -7,6 +9,15 @@ custom script generator site/app that auto installs development software for OSX
 * Homebrew Cask
 * XCode
 * OS X software updates
+
+--Must have Homebrew installed for these--
+
+* Atom
+* VirtualBox
+* Android Studio
+* Sequel Pro
+* SourceTree
+
 
 ## Command line developer tools:
 
