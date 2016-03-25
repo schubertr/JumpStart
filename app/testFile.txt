@@ -1,6 +1,0 @@
-hb
-hbVrsn
-hbBndle
-hbCsk
-xCode
-osxUp

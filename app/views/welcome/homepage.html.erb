@@ -15,11 +15,9 @@ input.hide{visibility: hidden}
 
 </style>
 
-<body background="bkgrd.png">
+<body background="<%= asset_path('bkgrd.png') %>">
 
-<?php
-
-print "<form name = 'tools' action = 'fetch.php' method='get'>
+<form name = 'tools' action = 'fetch.php' method='get'>
 
 <table>
 	<tr>
@@ -51,9 +49,8 @@ print "<form name = 'tools' action = 'fetch.php' method='get'>
 	</tr>
 </table>
 
-</form>";
-		
-?>
+</form>
+
 </body>
 
 </html>

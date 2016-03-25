@@ -13,3 +13,5 @@ then
 	echo Please install Homebrew package manager.
 	exit 1
 fi
+
+source ~/.profile
