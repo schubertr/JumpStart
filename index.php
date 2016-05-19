@@ -2,11 +2,24 @@
 
 <title>JumpStart</title>
 
-<%= stylesheet_link_tag "stylesheets/main.css" %>
+<style>
 
-<body background="<%= asset_path('bkgrd.png') %>">
+body{background-color: ; width: 100%}
+html{width: 100%}
+td{text-align: right; background-color: ; border-left:solid 75px transparent}
+th{background-color: ;}
+table{border-collapse: separate; margin: 0 auto; margin-top: 13%; border-spacing: 10px;}
+input.hide{visibility: hidden}
 
-<form name = 'tools' action = 'fetch.php' method='get'>
+*{font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif}
+
+</style>
+
+<body background="bkgrd.png">
+
+<?php
+
+print "<form name = 'tools' action = 'fetch.php' method='get'>
 
 <table>
 	<tr>
@@ -38,8 +51,9 @@
 	</tr>
 </table>
 
-</form>
-
+</form>";
+		
+?>
 </body>
 
 </html>
